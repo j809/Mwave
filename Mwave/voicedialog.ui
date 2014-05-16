@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>voiceDialog</class>
+ <widget class="QDialog" name="voiceDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>284</width>
+    <height>182</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Voice Recognition</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="voiceback" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>284</width>
+     <height>182</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#voiceback
+{
+	background-repeat : none;
+	background-image : url(:/basic/images/voiceback.png);
+}</string>
+   </property>
+   <widget class="QPushButton" name="recbutton">
+    <property name="geometry">
+     <rect>
+      <x>124</x>
+      <y>90</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>Start recording</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#recbutton
+{
+	border-image : url(:/basic/images/voicerecnormal.png);
+}
+QPushButton#recbutton:hover
+{
+	border-image : url(:/basic/images/voicerechover.png);
+}
+QPushButton#recbutton:pressed
+{
+	border-image : url(:/basic/images/voicerecpressed.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="recstatus">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>40</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#recstatus
+{
+	color : rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Speak Now...</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="loader">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>79</y>
+      <width>70</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>loader</zorder>
+   <zorder>recbutton</zorder>
+   <zorder>recstatus</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

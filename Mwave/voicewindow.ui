@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>voiceWindow</class>
+ <widget class="QWidget" name="voiceWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>284</width>
+    <height>182</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="voiceback" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>284</width>
+     <height>182</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#voiceback
+{
+	background-repeat:none;
+	background-image:	url(:/basic/images/voiceback.png);
+}</string>
+   </property>
+   <widget class="QPushButton" name="recbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#recbutton
+{
+	border-image : url(:/basic/images/voicerecnormal.png);
+}
+QPushButton#recbutton:hover
+{
+	border-image : url(:/basic/images/voicerechover.png);
+}
+QPushButton#recbutton:pressed
+{
+	border-image : url(:/basic/images/voicerecpressed.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
