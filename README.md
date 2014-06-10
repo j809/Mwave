@@ -1,6 +1,6 @@
 Mwave
 =====
-An automated personal assistant bot
+**An automated personal assistant bot**
 
 A Qt GUI desktop application for Ubuntu(currently).
 
