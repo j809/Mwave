@@ -1,5 +1,10 @@
-#Mwave
-##Qt Gui Desktop Application for Ubuntu(currently).
+Mwave
+=====
+An automated personal assistant bot
+
+A Qt GUI desktop application for Ubuntu(currently).
+
+
 **Mwave** is a fully featured **voice and gesture controlled** automated assistant. It packs both hardware and software features to complete some of your routine tasks.The creators have tried their best to make the interface as much user friendly as possible. These include:
 - Google search
 - Weather report
