@@ -15,7 +15,8 @@ A Qt GUI desktop application for Ubuntu(currently).
 - Home automation
 	- Controlling lights, fans and other devices…
 
-<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/weather.jpg" height="250" width="330" border="1" hspace="10"/><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/voice.jpg" height="250" width="330" border="1" hspace="10"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/weather.jpg" height="400" width="529" border="2"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/voice.jpg" height="400" width="529" border="2"/></p>
 	
 
 ##List of all available commands
