@@ -15,15 +15,15 @@ A Qt GUI desktop application for Ubuntu(currently).
 - Home automation
 	- Controlling lights, fans and other devices…
 
-	
+<br/>	
 **Get Live Weather reports**<br/><br/>
 
-<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/weather.jpg" height="400" width="529" border="2"/></p><br/><br/>
+<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/weather.jpg" height="400" width="529" border="2"/></p><br/>
 
 
 **Give Voice Commands**<br/><br/>
 
-<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/voice.jpg" height="400" width="529" border="2"/></p><br/><br/>
+<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/voice.jpg" height="400" width="529" border="2"/></p><br/>
 
 Many more commands available...
 
