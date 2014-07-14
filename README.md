@@ -15,12 +15,11 @@ A Qt GUI desktop application for Ubuntu(currently).
 - Home automation
 	- Controlling lights, fans and other devices…
 
-<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/blob/master/screenshots/weather.jpg"/></p>
-<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/blob/master/screenshots/voice.jpg"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/weather.jpg"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/j809/Mwave/master/screenshots/voice.jpg"/></p>
 	
 
-#List of all available commands
-================================
+##List of all available commands
 
 - **Activate OR Wakeup**:  To activate Mwave.
 - **Deactivate OR Sleep**:  To put the Mwave into Sleep Mode.
